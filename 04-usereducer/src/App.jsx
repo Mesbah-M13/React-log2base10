@@ -8,12 +8,14 @@ import TodoItemsListContextProvider, { TodoItemsListContext } from "./store/todo
 
 function App() {
   return (
+
     <TodoItemsListContextProvider>
+
       <AppName />
       <AddTodo />
       <ErrorMsg />
-
       <TodoItems />
+      
     </TodoItemsListContextProvider>
   );
 }
